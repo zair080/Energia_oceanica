@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Merriweather', serif;
+}
+
+.div_principaltipos{
+    background-color: #5499c7;
+    margin-top: 20px;
+}
+
+.div_tipos{
+    background-image: url('../img/energiamareomotriz.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.divuno{
+    width: 80%;
+    background-color: #aed6f1;
+    border: 3px solid #1a5276;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+
+.divuno h2{
+    font-size: 1.8rem;
+    color: #2471a3;
+    text-align: center;
+}
+
+.divdos{
+    background-color: #aed6f1;
+    width: 100%;
+    border: 3px solid #1a5276;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20%;
+    padding: 15px; /* Agrega espacio interno */
+}
+
+.divdos p{
+    font-size: 1rem;
+    font-weight: bold;
+    color:#2471a3;
+}
+
+.divdos p a{
+    text-decoration: none;
+    color: #2471a3; /* Cambia el color del enlace */
+    text-transform: uppercase; /* Cambia el peso de la fuente del enlace */
+}
+
+.div_tipos2{
+    background-image: url('../img/energiadelascorrientes.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.div_tipos3{
+    background-image: url('../img/Energiamaremotermica.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.div_tipos4{
+    background-image: url('../img/energiadelasolas.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.div_tipos5{
+    background-image: url('../img/energiaosmotica.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
+
+.div_tipos5{
+    background-image: url('../img/energiaosmotica.png');
+    background-repeat: no-repeat;
+    background-size: cover;        /* Cambiado de 'contain' a 'cover' */
+    background-position: center;   /* Centra la imagen en el div */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Cambiado a columna para centrar verticalmente */
+    height: 100vh;                 /* Asegura que el div tenga altura visible */
+    border-radius: 20%;
+    background-color: transparent;
+}
