@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ventajdesven.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header_principal">
+        <img class="logo" src="{{ url_for('static', filename='img/LOGO_PROYECTO.png') }}" alt="logo">
+        <button class="abrir_menu" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar_menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
+            <ul class="nav_list">
+                <li><a href="{{ url_for('index') }}">Inicio</a> </li>
+                <li><a href="{{ url_for('tipos') }}">Tipos de energía</a></li>
+                <li><a href="{{ url_for('graficas') }}">Gráficas</a></li>
+                <li><a href="{{ url_for('calculo') }}">Gasto en tu casa</a></li>
+                <li><a href="{{ url_for('desventajas') }}">Desventajas</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
+
+    <div class="div_principaldesventajas">
+        <div class="div_tiposventajas">
+            <div class="divunodes">
+                <h2> Ventajas </h2>
+            </div>
+            <div class="divdosdes">
+                <p>
+                    • Es un recurso renovable y dentro de un estándar, es constante en producción de energía.<br>
+                    • Aparte de ser una fuente de energía renovable, por supuesto, una de las principales ventajas de la energía marina es que no es contaminante, con referencia a que no contribuya a las emisiones de gases de efecto invernadero.<br>
+                    • Es silenciosa y por sus características no se ubica en zonas pobladas.<br>
+                    • Según el tipo de instalaciones, hay que tener en cuenta que el agua es mil veces más espesa que el aire, es posible producir electricidad a baja velocidad. Aun con velocidades de 1 m/s puede conseguirse energía.<br>
+                </p>
+            </div>
+        </div>
+    </div>  
+    
+
+</body>
+</html>

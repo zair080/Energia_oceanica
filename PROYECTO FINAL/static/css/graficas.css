@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para que el ancho y alto de los elementos no se vea afectado por el padding y el borde */
+    font-family: 'Merriweather', serif;
+
+}
+
+
+.div_principal_graficas{
+    width: 80%;
+    background-color: #aed6f1;
+    border: 3px solid #1a5276;
+    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+}
+
+.div_principal_graficas h2{
+    font-size: 1.8rem;
+    color: #2471a3;
+    text-align: center;
+}
+
+.titulo-pais {
+    font-size: 1.8rem;
+    color: #2471a3;
+    text-align: center;
+}
+
+.grafico-pais {
+    background-color: #aed6f1;
+    border: 3px solid #1a5276;
+    border-radius: 10px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.grafico-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+

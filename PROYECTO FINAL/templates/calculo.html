@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+    <title>Consumo de Energía</title>
+</head>
+<body>
+    <header class="header_principal">
+        <img class="logo" src="{{ url_for('static', filename='img/LOGO_PROYECTO.png') }}" alt="logo">
+        <button class="abrir_menu" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar_menu" id="cerrar"><i class="bi bi-x-circle"></i></button>
+            <ul class="nav_list">
+                <li><a href="{{ url_for('index') }}">Inicio</a> </li>
+                <li><a href="{{ url_for('tipos') }}">Tipos de energia</a></li>
+                <li><a href="{{ url_for('graficas') }}">Gráficas</a></li>
+                <li><a href="{{ url_for('desventajas') }}">Desventajas</a></li>
+                <li><a href="{{ url_for('ventajas') }}">Ventajas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script src="{{ url_for('static', filename='js/nav.js') }}"></script>
+    <h1>Calculadora de Consumo Diario</h1>
+    <form id="consumoForm">
+        <label><input type="checkbox" name="computadora"> ¿Tienes computadora?</label><br>
+        <input type="number" name="horas_pc" placeholder="Horas al día"><br>
+
+        <label>Cargas de celular por día:</label><br>
+        <input type="number" name="cargas_celular"><br>
+
+        <label><input type="checkbox" name="tv"> ¿Tienes TV?</label><br>
+        <input type="number" name="cantidad_tv" placeholder="¿Cuántas?"><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
